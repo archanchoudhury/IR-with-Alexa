@@ -26,7 +26,7 @@ class LaunchRequestHandler(AbstractRequestHandler):
 
     def handle(self, handler_input):
         # type: (HandlerInput) -> Response
-        speech_text = "Welcome to the Alexa Skills Kit, you can say hello!"
+        speech_text = "Welcome Blackperl. You can say Hello or You can ask me- Status Report, Relanuching a new VM. Which one you woule like to try?"
 
         handler_input.response_builder.speak(speech_text).set_card(
             SimpleCard("Hello World", speech_text)).set_should_end_session(
@@ -41,7 +41,7 @@ class HelloWorldIntentHandler(AbstractRequestHandler):
 
     def handle(self, handler_input):
         # type: (HandlerInput) -> Response
-        speech_text = "Hello Python Gurus from Classes!"
+        speech_text = "Howdy, Archan?"
 
         handler_input.response_builder.speak(speech_text).set_card(
             SimpleCard("Hello World", speech_text)).set_should_end_session(
