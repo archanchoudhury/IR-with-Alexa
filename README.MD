@@ -47,6 +47,12 @@ You will need the following to get started:
 
 
 # Now to jump back over to the Alexa Developer Portal and select Build Model!! If all is working, we should be able to type "Run BlackPerl IR" and see the Magic happenning!! 
-## I have added the Python Code to create/lanuch a new EC2 instance here. So feel free to take it and replicate the same above process to let alexa create/launch a new instance on behalf of you!! 
+* I have added the Python Code to create/lanuch a new EC2 instance here. So feel free to take it and replicate the same above process to let alexa create/launch a new instance on behalf of you!! 
+* Make sure you have defined the environment variable as below-
+* **AMI** Key- AMI, Value- Open EC2 in a new browser tab, click Launch Instance and copy and paste the ami value listed after your OS.
+* **INSTANCE_TYPE** Key-INSTANCE_TYPE, Value- t2.micro (you can choose as per your need) 
+* **KEY_NAME** Key- KEY_NAME, Value- The name of the EC2 key pair you created earlier
+* **REGION** Key- REGION, Value- The name of the Region.
+* **SUBNET_ID** Key- SUBNET_ID, Value- Navigate to VPC > Subnets, and copy and paste the ID of one of the public subnets in your VPC.
 
 # Thanks for taking the time to read!!
