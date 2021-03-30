@@ -11,3 +11,10 @@ You will need the following to get started:
 
 # Let's Begin
 ## First Part- Alexa Skill
+
+* First, I logged into the Alexa Developer Portal, selected Create Skill, and used the Start from scratch template.
+* Under Invocation, the name used to start the Alexa skill, I decided to change it to BlackPerl IR (You can name it anything you like to give!!)
+* I added three Intents — these are actions that fulfills a user’s spoken request.
+* * GatherServerIntent, used to gather a total number of running instances, utterance = status report
+* * TurnOffInstanceIntent, used to turn off the instances (obviously), utterance = turn off everything
+* * 
