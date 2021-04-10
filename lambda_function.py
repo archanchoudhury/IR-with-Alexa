@@ -141,9 +141,9 @@ class GatherServersIntentHandler(AbstractRequestHandler):
         total_instance_count = total_instance_count + instance_count
         if total_instance_count > 0:
             if total_instance_count == 1:
-                speech_text = f"There is {total_instance_count} instance running."
+                speech_text = f"There is {total_instance_count} instance running in AWS"
             elif total_instance_count > 1:
-                speech_text = f"There are {total_instance_count} instances running."
+                speech_text = f"There are {total_instance_count} instances running in AWS"
         else:
             speech_text = "I could not find any servers running right now."
         handler_input.response_builder.speak(speech_text).set_card(
