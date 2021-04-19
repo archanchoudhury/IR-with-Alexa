@@ -4,6 +4,7 @@ I will walk you through the process of creating an automation around doing basic
 * If you like to support my creation and pay me back a little, you can buy me a coffee ☕ https://www.buymeacoffee.com/BlackPerl
 
 # Setup
+See a working demo here 👉 https://youtu.be/D9dN-tnbAVs
 You will need the following to get started:
 * Alexa Developer Account, if you don't have, create one here 👉 https://developer.amazon.com
 * Some AWS Knowledge such as basic navigation around console, launching EC2 instances, basic knowledge of Lambda, IAM roles etc. And you are ready to roll!
